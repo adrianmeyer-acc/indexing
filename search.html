@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search Index Test</title>
+<link href="search.css" rel="stylesheet" type="text/css" />
+<script src="ajax.js"></script>
+<script src="search.js"></script>
+</head>
+<body>
+<div class="header"> <img src="/images/service-champion-icon.svg" 
+width="56px" height="56px" />
+  <div class="quick-search">
+    <table id="search-box" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMjBweCIgaGVpZ2h0PSIxMjBweCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyMCAxMjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNBMEEwQTAiIGQ9Ik01MC40LDcuMkMyNy44NCw3LjIsOS42LDI1LjQ0LDkuNiw0OGMwLDIyLjU2MSwxOC4yNCw0MC44LDQwLjgsNDAuOGM4LjA1LDAsMTUuNTA4LTIuMzYyLDIxLjgyNS02LjM3NUwxMDEuNywxMTEuOWwxMC4yLTEwLjJMODIuOCw3Mi42NzVjNS4yMzItNi44NTksOC40LTE1LjM2Nyw4LjQtMjQuNjc1QzkxLjIsMjUuNDQsNzIuOTYsNy4yLDUwLjQsNy4yeiBNNTAuNCwxNi44YzE3LjI4LDAsMzEuMiwxMy45MiwzMS4yLDMxLjJjMCwxNy4yNzktMTMuOTIsMzEuMi0zMS4yLDMxLjJTMTkuMiw2NS4yNzksMTkuMiw0OEMxOS4yLDMwLjcyLDMzLjEyLDE2LjgsNTAuNCwxNi44eiIvPjwvc3ZnPg==">
+    </td>
+    <td class="quick-search-input">
+    <input id="search" type="text" autocomplete="off" autocapitalize="off" autocorrect="off"/>
+    </td>
+    </tr>
+    </table>
+    <div id="search-autocomplete" style="display:none">
+      <ul>
+        <li><span>Tes</span>t 1</li>
+        <li><span>Tes</span>t 2</li>
+        <li><span>Tes</span>t 3</li>
+        <li><span>Tes</span>t 4</li>
+        <li><span>Tes</span>t 5</li>
+        <li><span>Tes</span>t 6</li>
+        <li><span>Tes</span>t 7</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+  new SearchAutoComplete( 1 );
+	document.getElementById('search').focus();
+</script>
+</html>

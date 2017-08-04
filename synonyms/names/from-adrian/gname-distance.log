@@ -1,0 +1,66 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Tue Feb 9 22:12:12 2016
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   gname-distance.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      gname-distance.csv
+  File processing option string: "str '\n'"
+  Bad File:     gname-distance.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table PX.GNAME_SIMILARITY, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FROM_GN_ID                          FIRST     *   ,       CHARACTER            
+TO_GN_ID                             NEXT     *   ,       CHARACTER            
+SIMILARITY                           NEXT     *   ,       CHARACTER            
+
+
+Referential Integrity Constraint/Trigger Information:
+NULL, UNIQUE, and PRIMARY KEY constraints are unaffected.
+
+Constraint PX.GNAME_SIMILARITY.FK_GNAME_SIMILATIRY_GNAME was disabled and novalidated before the load.
+Constraint PX.GNAME_SIMILARITY.FK_GNAME_SIMILATIRY_GNAME2 was disabled and novalidated before the load.
+The following index(es) on table PX.GNAME_SIMILARITY were processed:
+index PX.PK_GNAME_SIMILARITY loaded successfully with 14525774 keys
+
+Table PX.GNAME_SIMILARITY has no constraint exception table.
+No CHECK, REFERENTIAL constraints were re-enabled after the load.
+
+Table PX.GNAME_SIMILARITY:
+  14525774 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+Bind array size not used in direct path.
+Column array  rows :    5000
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:      14525774
+Total logical records rejected:         0
+Total logical records discarded:        0
+Total stream buffers loaded by SQL*Loader main thread:     3106
+Total stream buffers loaded by SQL*Loader load thread:        0
+
+Run began on Tue Feb 09 22:12:12 2016
+Run ended on Tue Feb 09 22:12:55 2016
+
+Elapsed time was:     00:00:42.41
+CPU time was:         00:00:06.25

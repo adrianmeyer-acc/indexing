@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="global.utils.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131262877159525957" remote="131396580670000000" Dst="2" />
+<file name="html.document.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131413256987807514" remote="131413257030000000" Dst="2" />
+<file name="index.abstract.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131420935039350536" remote="131420997290000000" Dst="2" />
+<file name="index.filter.group.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131359613041274114" remote="131396580670000000" Dst="2" />
+<file name="index.filter.value.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131359588953770750" remote="131396580680000000" Dst="2" />
+<file name="index.processor.default.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131394847019956162" remote="131396580680000000" Dst="2" />
+<file name="index.processor.email.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131419906429611706" remote="131419997240000000" Dst="2" />
+<file name="index.processor.full.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131395764393499857" remote="131396580680000000" Dst="2" />
+<file name="index.processor.phone.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131420033450331457" remote="131420033540000000" Dst="2" />
+<file name="index.processor.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131419904385546947" remote="131419997240000000" Dst="2" />
+<file name="index.term.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131420058592718724" remote="131420118230000000" Dst="2" />
+<file name="service.database.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131395909032239216" remote="131396580680000000" Dst="2" />
+<file name="service.index.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131420937197568831" remote="131420997370000000" Dst="2" />
+<file name="index.processor.lastname.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131407376398506224" remote="131407393880000000" Dst="2" />
+<file name="index.processor.firstname.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131407986385737496" remote="131408036460000000" Dst="2" />
+<file name="address.formatter.php" server="indexer.servicechampion.com:2229//var/www/html/" local="131413234055992621" remote="131413234890000000" Dst="2" />
+</dwsync>

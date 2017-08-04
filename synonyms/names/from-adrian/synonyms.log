@@ -1,0 +1,488 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Wed Jan 13 21:18:09 2016
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   synonyms.ctl
+Character Set UTF8 specified for all input.
+First primary datafile behindthename-synonyms.csv has a
+ utf8 byte order mark in it.
+
+Data File:      behindthename-synonyms.csv
+  File processing option string: "str '\n'"
+  Bad File:     behindthename-synonyms.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table PX.IMPORT_GN_SYNONYM, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GNAME                               FIRST  4000   ,       CHARACTER            
+ISMALE                               NEXT  4000   ,       CHARACTER            
+ISFEMALE                             NEXT  4000   ,       CHARACTER            
+SYN_1                                NEXT  4000   ,       CHARACTER            
+SYN_2                                NEXT  4000   ,       CHARACTER            
+SYN_3                                NEXT  4000   ,       CHARACTER            
+SYN_4                                NEXT  4000   ,       CHARACTER            
+SYN_5                                NEXT  4000   ,       CHARACTER            
+SYN_6                                NEXT  4000   ,       CHARACTER            
+SYN_7                                NEXT  4000   ,       CHARACTER            
+SYN_8                                NEXT  4000   ,       CHARACTER            
+SYN_9                                NEXT  4000   ,       CHARACTER            
+SYN_10                               NEXT  4000   ,       CHARACTER            
+SYN_11                               NEXT  4000   ,       CHARACTER            
+SYN_12                               NEXT  4000   ,       CHARACTER            
+SYN_13                               NEXT  4000   ,       CHARACTER            
+SYN_14                               NEXT  4000   ,       CHARACTER            
+SYN_15                               NEXT  4000   ,       CHARACTER            
+SYN_16                               NEXT  4000   ,       CHARACTER            
+SYN_17                               NEXT  4000   ,       CHARACTER            
+SYN_18                               NEXT  4000   ,       CHARACTER            
+SYN_19                               NEXT  4000   ,       CHARACTER            
+SYN_20                               NEXT  4000   ,       CHARACTER            
+SYN_21                               NEXT  4000   ,       CHARACTER            
+SYN_22                               NEXT  4000   ,       CHARACTER            
+SYN_23                               NEXT  4000   ,       CHARACTER            
+SYN_24                               NEXT  4000   ,       CHARACTER            
+SYN_25                               NEXT  4000   ,       CHARACTER            
+SYN_26                               NEXT  4000   ,       CHARACTER            
+SYN_27                               NEXT  4000   ,       CHARACTER            
+SYN_28                               NEXT  4000   ,       CHARACTER            
+SYN_29                               NEXT  4000   ,       CHARACTER            
+SYN_30                               NEXT  4000   ,       CHARACTER            
+SYN_31                               NEXT  4000   ,       CHARACTER            
+SYN_32                               NEXT  4000   ,       CHARACTER            
+SYN_33                               NEXT  4000   ,       CHARACTER            
+SYN_34                               NEXT  4000   ,       CHARACTER            
+SYN_35                               NEXT  4000   ,       CHARACTER            
+SYN_36                               NEXT  4000   ,       CHARACTER            
+SYN_37                               NEXT  4000   ,       CHARACTER            
+SYN_38                               NEXT  4000   ,       CHARACTER            
+SYN_39                               NEXT  4000   ,       CHARACTER            
+SYN_40                               NEXT  4000   ,       CHARACTER            
+SYN_41                               NEXT  4000   ,       CHARACTER            
+SYN_42                               NEXT  4000   ,       CHARACTER            
+SYN_43                               NEXT  4000   ,       CHARACTER            
+SYN_44                               NEXT  4000   ,       CHARACTER            
+SYN_45                               NEXT  4000   ,       CHARACTER            
+SYN_46                               NEXT  4000   ,       CHARACTER            
+SYN_47                               NEXT  4000   ,       CHARACTER            
+SYN_48                               NEXT  4000   ,       CHARACTER            
+SYN_49                               NEXT  4000   ,       CHARACTER            
+SYN_50                               NEXT  4000   ,       CHARACTER            
+SYN_51                               NEXT  4000   ,       CHARACTER            
+SYN_52                               NEXT  4000   ,       CHARACTER            
+SYN_53                               NEXT  4000   ,       CHARACTER            
+SYN_54                               NEXT  4000   ,       CHARACTER            
+SYN_55                               NEXT  4000   ,       CHARACTER            
+SYN_56                               NEXT  4000   ,       CHARACTER            
+SYN_57                               NEXT  4000   ,       CHARACTER            
+SYN_58                               NEXT  4000   ,       CHARACTER            
+SYN_59                               NEXT  4000   ,       CHARACTER            
+SYN_60                               NEXT  4000   ,       CHARACTER            
+SYN_61                               NEXT  4000   ,       CHARACTER            
+SYN_62                               NEXT  4000   ,       CHARACTER            
+SYN_63                               NEXT  4000   ,       CHARACTER            
+SYN_64                               NEXT  4000   ,       CHARACTER            
+SYN_65                               NEXT  4000   ,       CHARACTER            
+SYN_66                               NEXT  4000   ,       CHARACTER            
+SYN_67                               NEXT  4000   ,       CHARACTER            
+SYN_68                               NEXT  4000   ,       CHARACTER            
+SYN_69                               NEXT  4000   ,       CHARACTER            
+SYN_70                               NEXT  4000   ,       CHARACTER            
+SYN_71                               NEXT  4000   ,       CHARACTER            
+SYN_72                               NEXT  4000   ,       CHARACTER            
+SYN_73                               NEXT  4000   ,       CHARACTER            
+SYN_74                               NEXT  4000   ,       CHARACTER            
+SYN_75                               NEXT  4000   ,       CHARACTER            
+SYN_76                               NEXT  4000   ,       CHARACTER            
+SYN_77                               NEXT  4000   ,       CHARACTER            
+SYN_78                               NEXT  4000   ,       CHARACTER            
+SYN_79                               NEXT  4000   ,       CHARACTER            
+SYN_80                               NEXT  4000   ,       CHARACTER            
+SYN_81                               NEXT  4000   ,       CHARACTER            
+SYN_82                               NEXT  4000   ,       CHARACTER            
+SYN_83                               NEXT  4000   ,       CHARACTER            
+SYN_84                               NEXT  4000   ,       CHARACTER            
+SYN_85                               NEXT  4000   ,       CHARACTER            
+SYN_86                               NEXT  4000   ,       CHARACTER            
+SYN_87                               NEXT  4000   ,       CHARACTER            
+SYN_88                               NEXT  4000   ,       CHARACTER            
+SYN_89                               NEXT  4000   ,       CHARACTER            
+SYN_90                               NEXT  4000   ,       CHARACTER            
+SYN_91                               NEXT  4000   ,       CHARACTER            
+SYN_92                               NEXT  4000   ,       CHARACTER            
+SYN_93                               NEXT  4000   ,       CHARACTER            
+SYN_94                               NEXT  4000   ,       CHARACTER            
+SYN_95                               NEXT  4000   ,       CHARACTER            
+SYN_96                               NEXT  4000   ,       CHARACTER            
+SYN_97                               NEXT  4000   ,       CHARACTER            
+SYN_98                               NEXT  4000   ,       CHARACTER            
+SYN_99                               NEXT  4000   ,       CHARACTER            
+SYN_100                              NEXT  4000   ,       CHARACTER            
+SYN_101                              NEXT  4000   ,       CHARACTER            
+SYN_102                              NEXT  4000   ,       CHARACTER            
+SYN_103                              NEXT  4000   ,       CHARACTER            
+SYN_104                              NEXT  4000   ,       CHARACTER            
+SYN_105                              NEXT  4000   ,       CHARACTER            
+SYN_106                              NEXT  4000   ,       CHARACTER            
+SYN_107                              NEXT  4000   ,       CHARACTER            
+SYN_108                              NEXT  4000   ,       CHARACTER            
+SYN_109                              NEXT  4000   ,       CHARACTER            
+SYN_110                              NEXT  4000   ,       CHARACTER            
+SYN_111                              NEXT  4000   ,       CHARACTER            
+SYN_112                              NEXT  4000   ,       CHARACTER            
+SYN_113                              NEXT  4000   ,       CHARACTER            
+SYN_114                              NEXT  4000   ,       CHARACTER            
+SYN_115                              NEXT  4000   ,       CHARACTER            
+SYN_116                              NEXT  4000   ,       CHARACTER            
+SYN_117                              NEXT  4000   ,       CHARACTER            
+SYN_118                              NEXT  4000   ,       CHARACTER            
+SYN_119                              NEXT  4000   ,       CHARACTER            
+SYN_120                              NEXT  4000   ,       CHARACTER            
+SYN_121                              NEXT  4000   ,       CHARACTER            
+SYN_122                              NEXT  4000   ,       CHARACTER            
+SYN_123                              NEXT  4000   ,       CHARACTER            
+SYN_124                              NEXT  4000   ,       CHARACTER            
+SYN_125                              NEXT  4000   ,       CHARACTER            
+SYN_126                              NEXT  4000   ,       CHARACTER            
+SYN_127                              NEXT  4000   ,       CHARACTER            
+SYN_128                              NEXT  4000   ,       CHARACTER            
+SYN_129                              NEXT  4000   ,       CHARACTER            
+SYN_130                              NEXT  4000   ,       CHARACTER            
+SYN_131                              NEXT  4000   ,       CHARACTER            
+SYN_132                              NEXT  4000   ,       CHARACTER            
+SYN_133                              NEXT  4000   ,       CHARACTER            
+SYN_134                              NEXT  4000   ,       CHARACTER            
+SYN_135                              NEXT  4000   ,       CHARACTER            
+SYN_136                              NEXT  4000   ,       CHARACTER            
+SYN_137                              NEXT  4000   ,       CHARACTER            
+SYN_138                              NEXT  4000   ,       CHARACTER            
+SYN_139                              NEXT  4000   ,       CHARACTER            
+SYN_140                              NEXT  4000   ,       CHARACTER            
+SYN_141                              NEXT  4000   ,       CHARACTER            
+SYN_142                              NEXT  4000   ,       CHARACTER            
+SYN_143                              NEXT  4000   ,       CHARACTER            
+SYN_144                              NEXT  4000   ,       CHARACTER            
+SYN_145                              NEXT  4000   ,       CHARACTER            
+SYN_146                              NEXT  4000   ,       CHARACTER            
+SYN_147                              NEXT  4000   ,       CHARACTER            
+SYN_148                              NEXT  4000   ,       CHARACTER            
+SYN_149                              NEXT  4000   ,       CHARACTER            
+SYN_150                              NEXT  4000   ,       CHARACTER            
+SYN_151                              NEXT  4000   ,       CHARACTER            
+SYN_152                              NEXT  4000   ,       CHARACTER            
+SYN_153                              NEXT  4000   ,       CHARACTER            
+SYN_154                              NEXT  4000   ,       CHARACTER            
+SYN_155                              NEXT  4000   ,       CHARACTER            
+SYN_156                              NEXT  4000   ,       CHARACTER            
+SYN_157                              NEXT  4000   ,       CHARACTER            
+SYN_158                              NEXT  4000   ,       CHARACTER            
+SYN_159                              NEXT  4000   ,       CHARACTER            
+SYN_160                              NEXT  4000   ,       CHARACTER            
+SYN_161                              NEXT  4000   ,       CHARACTER            
+SYN_162                              NEXT  4000   ,       CHARACTER            
+SYN_163                              NEXT  4000   ,       CHARACTER            
+SYN_164                              NEXT  4000   ,       CHARACTER            
+SYN_165                              NEXT  4000   ,       CHARACTER            
+SYN_166                              NEXT  4000   ,       CHARACTER            
+SYN_167                              NEXT  4000   ,       CHARACTER            
+SYN_168                              NEXT  4000   ,       CHARACTER            
+SYN_169                              NEXT  4000   ,       CHARACTER            
+SYN_170                              NEXT  4000   ,       CHARACTER            
+SYN_171                              NEXT  4000   ,       CHARACTER            
+SYN_172                              NEXT  4000   ,       CHARACTER            
+SYN_173                              NEXT  4000   ,       CHARACTER            
+SYN_174                              NEXT  4000   ,       CHARACTER            
+SYN_175                              NEXT  4000   ,       CHARACTER            
+SYN_176                              NEXT  4000   ,       CHARACTER            
+SYN_177                              NEXT  4000   ,       CHARACTER            
+SYN_178                              NEXT  4000   ,       CHARACTER            
+SYN_179                              NEXT  4000   ,       CHARACTER            
+SYN_180                              NEXT  4000   ,       CHARACTER            
+SYN_181                              NEXT  4000   ,       CHARACTER            
+SYN_182                              NEXT  4000   ,       CHARACTER            
+SYN_183                              NEXT  4000   ,       CHARACTER            
+SYN_184                              NEXT  4000   ,       CHARACTER            
+SYN_185                              NEXT  4000   ,       CHARACTER            
+SYN_186                              NEXT  4000   ,       CHARACTER            
+SYN_187                              NEXT  4000   ,       CHARACTER            
+SYN_188                              NEXT  4000   ,       CHARACTER            
+SYN_189                              NEXT  4000   ,       CHARACTER            
+SYN_190                              NEXT  4000   ,       CHARACTER            
+SYN_191                              NEXT  4000   ,       CHARACTER            
+SYN_192                              NEXT  4000   ,       CHARACTER            
+SYN_193                              NEXT  4000   ,       CHARACTER            
+SYN_194                              NEXT  4000   ,       CHARACTER            
+SYN_195                              NEXT  4000   ,       CHARACTER            
+SYN_196                              NEXT  4000   ,       CHARACTER            
+SYN_197                              NEXT  4000   ,       CHARACTER            
+SYN_198                              NEXT  4000   ,       CHARACTER            
+SYN_199                              NEXT  4000   ,       CHARACTER            
+SYN_200                              NEXT  4000   ,       CHARACTER            
+SYN_201                              NEXT  4000   ,       CHARACTER            
+SYN_202                              NEXT  4000   ,       CHARACTER            
+SYN_203                              NEXT  4000   ,       CHARACTER            
+SYN_204                              NEXT  4000   ,       CHARACTER            
+SYN_205                              NEXT  4000   ,       CHARACTER            
+SYN_206                              NEXT  4000   ,       CHARACTER            
+SYN_207                              NEXT  4000   ,       CHARACTER            
+SYN_208                              NEXT  4000   ,       CHARACTER            
+SYN_209                              NEXT  4000   ,       CHARACTER            
+SYN_210                              NEXT  4000   ,       CHARACTER            
+SYN_211                              NEXT  4000   ,       CHARACTER            
+SYN_212                              NEXT  4000   ,       CHARACTER            
+SYN_213                              NEXT  4000   ,       CHARACTER            
+SYN_214                              NEXT  4000   ,       CHARACTER            
+SYN_215                              NEXT  4000   ,       CHARACTER            
+SYN_216                              NEXT  4000   ,       CHARACTER            
+SYN_217                              NEXT  4000   ,       CHARACTER            
+SYN_218                              NEXT  4000   ,       CHARACTER            
+SYN_219                              NEXT  4000   ,       CHARACTER            
+SYN_220                              NEXT  4000   ,       CHARACTER            
+SYN_221                              NEXT  4000   ,       CHARACTER            
+SYN_222                              NEXT  4000   ,       CHARACTER            
+SYN_223                              NEXT  4000   ,       CHARACTER            
+SYN_224                              NEXT  4000   ,       CHARACTER            
+SYN_225                              NEXT  4000   ,       CHARACTER            
+SYN_226                              NEXT  4000   ,       CHARACTER            
+SYN_227                              NEXT  4000   ,       CHARACTER            
+SYN_228                              NEXT  4000   ,       CHARACTER            
+SYN_229                              NEXT  4000   ,       CHARACTER            
+SYN_230                              NEXT  4000   ,       CHARACTER            
+SYN_231                              NEXT  4000   ,       CHARACTER            
+SYN_232                              NEXT  4000   ,       CHARACTER            
+SYN_233                              NEXT  4000   ,       CHARACTER            
+SYN_234                              NEXT  4000   ,       CHARACTER            
+SYN_235                              NEXT  4000   ,       CHARACTER            
+SYN_236                              NEXT  4000   ,       CHARACTER            
+SYN_237                              NEXT  4000   ,       CHARACTER            
+SYN_238                              NEXT  4000   ,       CHARACTER            
+SYN_239                              NEXT  4000   ,       CHARACTER            
+SYN_240                              NEXT  4000   ,       CHARACTER            
+SYN_241                              NEXT  4000   ,       CHARACTER            
+SYN_242                              NEXT  4000   ,       CHARACTER            
+SYN_243                              NEXT  4000   ,       CHARACTER            
+SYN_244                              NEXT  4000   ,       CHARACTER            
+SYN_245                              NEXT  4000   ,       CHARACTER            
+SYN_246                              NEXT  4000   ,       CHARACTER            
+SYN_247                              NEXT  4000   ,       CHARACTER            
+SYN_248                              NEXT  4000   ,       CHARACTER            
+SYN_249                              NEXT  4000   ,       CHARACTER            
+SYN_250                              NEXT  4000   ,       CHARACTER            
+SYN_251                              NEXT  4000   ,       CHARACTER            
+SYN_252                              NEXT  4000   ,       CHARACTER            
+SYN_253                              NEXT  4000   ,       CHARACTER            
+SYN_254                              NEXT  4000   ,       CHARACTER            
+SYN_255                              NEXT  4000   ,       CHARACTER            
+SYN_256                              NEXT  4000   ,       CHARACTER            
+SYN_257                              NEXT  4000   ,       CHARACTER            
+SYN_258                              NEXT  4000   ,       CHARACTER            
+SYN_259                              NEXT  4000   ,       CHARACTER            
+SYN_260                              NEXT  4000   ,       CHARACTER            
+SYN_261                              NEXT  4000   ,       CHARACTER            
+SYN_262                              NEXT  4000   ,       CHARACTER            
+SYN_263                              NEXT  4000   ,       CHARACTER            
+SYN_264                              NEXT  4000   ,       CHARACTER            
+SYN_265                              NEXT  4000   ,       CHARACTER            
+SYN_266                              NEXT  4000   ,       CHARACTER            
+SYN_267                              NEXT  4000   ,       CHARACTER            
+SYN_268                              NEXT  4000   ,       CHARACTER            
+SYN_269                              NEXT  4000   ,       CHARACTER            
+SYN_270                              NEXT  4000   ,       CHARACTER            
+SYN_271                              NEXT  4000   ,       CHARACTER            
+SYN_272                              NEXT  4000   ,       CHARACTER            
+SYN_273                              NEXT  4000   ,       CHARACTER            
+SYN_274                              NEXT  4000   ,       CHARACTER            
+SYN_275                              NEXT  4000   ,       CHARACTER            
+SYN_276                              NEXT  4000   ,       CHARACTER            
+SYN_277                              NEXT  4000   ,       CHARACTER            
+SYN_278                              NEXT  4000   ,       CHARACTER            
+SYN_279                              NEXT  4000   ,       CHARACTER            
+SYN_280                              NEXT  4000   ,       CHARACTER            
+SYN_281                              NEXT  4000   ,       CHARACTER            
+SYN_282                              NEXT  4000   ,       CHARACTER            
+SYN_283                              NEXT  4000   ,       CHARACTER            
+SYN_284                              NEXT  4000   ,       CHARACTER            
+SYN_285                              NEXT  4000   ,       CHARACTER            
+SYN_286                              NEXT  4000   ,       CHARACTER            
+SYN_287                              NEXT  4000   ,       CHARACTER            
+SYN_288                              NEXT  4000   ,       CHARACTER            
+SYN_289                              NEXT  4000   ,       CHARACTER            
+SYN_290                              NEXT  4000   ,       CHARACTER            
+SYN_291                              NEXT  4000   ,       CHARACTER            
+SYN_292                              NEXT  4000   ,       CHARACTER            
+SYN_293                              NEXT  4000   ,       CHARACTER            
+SYN_294                              NEXT  4000   ,       CHARACTER            
+SYN_295                              NEXT  4000   ,       CHARACTER            
+SYN_296                              NEXT  4000   ,       CHARACTER            
+SYN_297                              NEXT  4000   ,       CHARACTER            
+SYN_298                              NEXT  4000   ,       CHARACTER            
+SYN_299                              NEXT  4000   ,       CHARACTER            
+SYN_300                              NEXT  4000   ,       CHARACTER            
+SYN_301                              NEXT  4000   ,       CHARACTER            
+SYN_302                              NEXT  4000   ,       CHARACTER            
+SYN_303                              NEXT  4000   ,       CHARACTER            
+SYN_304                              NEXT  4000   ,       CHARACTER            
+SYN_305                              NEXT  4000   ,       CHARACTER            
+SYN_306                              NEXT  4000   ,       CHARACTER            
+SYN_307                              NEXT  4000   ,       CHARACTER            
+SYN_308                              NEXT  4000   ,       CHARACTER            
+SYN_309                              NEXT  4000   ,       CHARACTER            
+SYN_310                              NEXT  4000   ,       CHARACTER            
+SYN_311                              NEXT  4000   ,       CHARACTER            
+SYN_312                              NEXT  4000   ,       CHARACTER            
+SYN_313                              NEXT  4000   ,       CHARACTER            
+SYN_314                              NEXT  4000   ,       CHARACTER            
+SYN_315                              NEXT  4000   ,       CHARACTER            
+SYN_316                              NEXT  4000   ,       CHARACTER            
+SYN_317                              NEXT  4000   ,       CHARACTER            
+SYN_318                              NEXT  4000   ,       CHARACTER            
+SYN_319                              NEXT  4000   ,       CHARACTER            
+SYN_320                              NEXT  4000   ,       CHARACTER            
+SYN_321                              NEXT  4000   ,       CHARACTER            
+SYN_322                              NEXT  4000   ,       CHARACTER            
+SYN_323                              NEXT  4000   ,       CHARACTER            
+SYN_324                              NEXT  4000   ,       CHARACTER            
+SYN_325                              NEXT  4000   ,       CHARACTER            
+SYN_326                              NEXT  4000   ,       CHARACTER            
+SYN_327                              NEXT  4000   ,       CHARACTER            
+SYN_328                              NEXT  4000   ,       CHARACTER            
+SYN_329                              NEXT  4000   ,       CHARACTER            
+SYN_330                              NEXT  4000   ,       CHARACTER            
+SYN_331                              NEXT  4000   ,       CHARACTER            
+SYN_332                              NEXT  4000   ,       CHARACTER            
+SYN_333                              NEXT  4000   ,       CHARACTER            
+SYN_334                              NEXT  4000   ,       CHARACTER            
+SYN_335                              NEXT  4000   ,       CHARACTER            
+SYN_336                              NEXT  4000   ,       CHARACTER            
+SYN_337                              NEXT  4000   ,       CHARACTER            
+SYN_338                              NEXT  4000   ,       CHARACTER            
+SYN_339                              NEXT  4000   ,       CHARACTER            
+SYN_340                              NEXT  4000   ,       CHARACTER            
+SYN_341                              NEXT  4000   ,       CHARACTER            
+SYN_342                              NEXT  4000   ,       CHARACTER            
+SYN_343                              NEXT  4000   ,       CHARACTER            
+SYN_344                              NEXT  4000   ,       CHARACTER            
+SYN_345                              NEXT  4000   ,       CHARACTER            
+SYN_346                              NEXT  4000   ,       CHARACTER            
+SYN_347                              NEXT  4000   ,       CHARACTER            
+SYN_348                              NEXT  4000   ,       CHARACTER            
+SYN_349                              NEXT  4000   ,       CHARACTER            
+SYN_350                              NEXT  4000   ,       CHARACTER            
+SYN_351                              NEXT  4000   ,       CHARACTER            
+SYN_352                              NEXT  4000   ,       CHARACTER            
+SYN_353                              NEXT  4000   ,       CHARACTER            
+SYN_354                              NEXT  4000   ,       CHARACTER            
+SYN_355                              NEXT  4000   ,       CHARACTER            
+SYN_356                              NEXT  4000   ,       CHARACTER            
+SYN_357                              NEXT  4000   ,       CHARACTER            
+SYN_358                              NEXT  4000   ,       CHARACTER            
+SYN_359                              NEXT  4000   ,       CHARACTER            
+SYN_360                              NEXT  4000   ,       CHARACTER            
+SYN_361                              NEXT  4000   ,       CHARACTER            
+SYN_362                              NEXT  4000   ,       CHARACTER            
+SYN_363                              NEXT  4000   ,       CHARACTER            
+SYN_364                              NEXT  4000   ,       CHARACTER            
+SYN_365                              NEXT  4000   ,       CHARACTER            
+SYN_366                              NEXT  4000   ,       CHARACTER            
+SYN_367                              NEXT  4000   ,       CHARACTER            
+SYN_368                              NEXT  4000   ,       CHARACTER            
+SYN_369                              NEXT  4000   ,       CHARACTER            
+SYN_370                              NEXT  4000   ,       CHARACTER            
+SYN_371                              NEXT  4000   ,       CHARACTER            
+SYN_372                              NEXT  4000   ,       CHARACTER            
+SYN_373                              NEXT  4000   ,       CHARACTER            
+SYN_374                              NEXT  4000   ,       CHARACTER            
+SYN_375                              NEXT  4000   ,       CHARACTER            
+SYN_376                              NEXT  4000   ,       CHARACTER            
+SYN_377                              NEXT  4000   ,       CHARACTER            
+SYN_378                              NEXT  4000   ,       CHARACTER            
+SYN_379                              NEXT  4000   ,       CHARACTER            
+SYN_380                              NEXT  4000   ,       CHARACTER            
+SYN_381                              NEXT  4000   ,       CHARACTER            
+SYN_382                              NEXT  4000   ,       CHARACTER            
+SYN_383                              NEXT  4000   ,       CHARACTER            
+SYN_384                              NEXT  4000   ,       CHARACTER            
+SYN_385                              NEXT  4000   ,       CHARACTER            
+SYN_386                              NEXT  4000   ,       CHARACTER            
+SYN_387                              NEXT  4000   ,       CHARACTER            
+SYN_388                              NEXT  4000   ,       CHARACTER            
+SYN_389                              NEXT  4000   ,       CHARACTER            
+SYN_390                              NEXT  4000   ,       CHARACTER            
+SYN_391                              NEXT  4000   ,       CHARACTER            
+SYN_392                              NEXT  4000   ,       CHARACTER            
+SYN_393                              NEXT  4000   ,       CHARACTER            
+SYN_394                              NEXT  4000   ,       CHARACTER            
+SYN_395                              NEXT  4000   ,       CHARACTER            
+SYN_396                              NEXT  4000   ,       CHARACTER            
+SYN_397                              NEXT  4000   ,       CHARACTER            
+SYN_398                              NEXT  4000   ,       CHARACTER            
+SYN_399                              NEXT  4000   ,       CHARACTER            
+SYN_400                              NEXT  4000   ,       CHARACTER            
+SYN_401                              NEXT  4000   ,       CHARACTER            
+SYN_402                              NEXT  4000   ,       CHARACTER            
+SYN_403                              NEXT  4000   ,       CHARACTER            
+SYN_404                              NEXT  4000   ,       CHARACTER            
+SYN_405                              NEXT  4000   ,       CHARACTER            
+SYN_406                              NEXT  4000   ,       CHARACTER            
+SYN_407                              NEXT  4000   ,       CHARACTER            
+SYN_408                              NEXT  4000   ,       CHARACTER            
+SYN_409                              NEXT  4000   ,       CHARACTER            
+SYN_410                              NEXT  4000   ,       CHARACTER            
+SYN_411                              NEXT  4000   ,       CHARACTER            
+SYN_412                              NEXT  4000   ,       CHARACTER            
+SYN_413                              NEXT  4000   ,       CHARACTER            
+SYN_414                              NEXT  4000   ,       CHARACTER            
+SYN_415                              NEXT  4000   ,       CHARACTER            
+SYN_416                              NEXT  4000   ,       CHARACTER            
+SYN_417                              NEXT  4000   ,       CHARACTER            
+SYN_418                              NEXT  4000   ,       CHARACTER            
+SYN_419                              NEXT  4000   ,       CHARACTER            
+SYN_420                              NEXT  4000   ,       CHARACTER            
+SYN_421                              NEXT  4000   ,       CHARACTER            
+SYN_422                              NEXT  4000   ,       CHARACTER            
+SYN_423                              NEXT  4000   ,       CHARACTER            
+SYN_424                              NEXT  4000   ,       CHARACTER            
+SYN_425                              NEXT  4000   ,       CHARACTER            
+SYN_426                              NEXT  4000   ,       CHARACTER            
+SYN_427                              NEXT  4000   ,       CHARACTER            
+SYN_428                              NEXT  4000   ,       CHARACTER            
+SYN_429                              NEXT  4000   ,       CHARACTER            
+
+The following index(es) on table PX.IMPORT_GN_SYNONYM were processed:
+index PX.PK_IMPORT_GN_SYNONYM loaded successfully with 19258 keys
+
+Table PX.IMPORT_GN_SYNONYM:
+  19258 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+Bind array size not used in direct path.
+Column array  rows :    1000
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:         19258
+Total logical records rejected:         0
+Total logical records discarded:        0
+Total stream buffers loaded by SQL*Loader main thread:       32
+Total stream buffers loaded by SQL*Loader load thread:       22
+
+Run began on Wed Jan 13 21:18:09 2016
+Run ended on Wed Jan 13 21:18:11 2016
+
+Elapsed time was:     00:00:01.42
+CPU time was:         00:00:00.37

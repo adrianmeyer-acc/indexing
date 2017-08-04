@@ -1,0 +1,192 @@
+/* 
+100%
+blau: #0d519b
+grün: #81c625
+
+75%
+blau: #4a7db4
+grün: #a1d45c
+
+50%
+blau: #86a8cd
+grün: #c0e292
+
+25%
+blau: #c2d3e6
+grün: #dff1c8
+
+ACC BLUE #00519B
+ACC GREEN #72BF44
+ACC LIGHT GREEN #DCEFD0
+*/
+body, html {
+	padding: 0px;
+	margin: 0px;
+  box-sizing: border-box;
+	font-family: "Trebuchet MS", Helvetica, Verdana, Arial, Geneva, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.header{
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #EEE;
+}
+.header img{
+	vertical-align:middle;
+}
+.quick-search {
+  display: inline-block;
+	width: 800px;
+	vertical-align:middle;
+	background-color:white;
+}
+.quick-search>table{
+	width: 100%;
+  border: 1px solid #BBB;
+  border-radius: 4px;
+/*  box-shadow: outset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;*/
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+table.quick-search-glow {
+  border: 1px solid rgba(0,81,155,.5);
+/*  box-shadow: outset 0 1px 2px rgba(0,81,155,.5), 0 -1px 1px #FFF, 0 1px 0 #FFF;*/
+}
+.quick-search>table tr td{
+	vertical-align:middle;
+	text-align:center;
+	padding: 4px 0px;
+}
+.quick-search #search-box img{
+	height:20px;
+	width:auto;
+	margin-left: 6px;
+	margin-right: 2px;
+}
+.quick-search-input{
+	width: 99%;
+}
+.quick-search input{
+	border:none;
+	background-color: transparent;
+	box-sizing : border-box;
+	font-size: 16px;
+	width: 100%;
+	outline: none;
+	z-index: 1000;
+}
+
+.header #search-autocomplete{
+	float: left;
+  position:fixed;
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+  box-shadow: 0px 4px 10px #DDD;	
+	overflow-y: auto;
+	width: 90%;
+	background-color: #FFF;
+}
+.header div#search-autocomplete{
+	white-space:nowrap;
+	padding: 0px;
+	color: #AAA;
+	font-size: 16px;
+}
+.header #search-autocomplete a{
+  text-decoration:none;	
+	color: #AAA;
+}
+.header #search-autocomplete .search-combinations div,
+.header #search-autocomplete .search-concepts div{
+  padding: 4px 6px;
+}
+.header #search-autocomplete a:hover div{
+  background-color: #EEE;
+}
+.header #search-autocomplete .search-left,
+.header #search-autocomplete .search-right{
+	text-align: left;
+	vertical-align:top;
+}
+.header #search-autocomplete .search-left{
+	background-color: #FAFAFA;
+	border-right: 1px dotted #BBB;
+	width: 1%;
+	white-space:nowrap;
+}
+.header #search-autocomplete .search-left strong{
+	color: #0d519b;
+}
+.header #search-autocomplete .search-left div span{
+	position: relative;
+	float: right;
+	left: 36px;
+}
+.header #search-autocomplete .search-right{
+	background-color: white;
+}
+.header #search-autocomplete .search-term{
+	padding: 6px 12px;
+}
+.header #search-autocomplete .search-concepts,
+.header #search-autocomplete .search-combinations{
+	padding: 6px 40px 6px 6px;
+}
+.header #search-autocomplete .search-term{
+	border-bottom: 1px solid #BBB;
+}
+.header #search-autocomplete .search-concepts{
+	border-bottom: 1px dotted #BBB;
+}
+.header #search-autocomplete .search-total{
+	padding: 12px 8px 3px 52px;
+	color: #666;
+	font-size: 13px;
+	background-color: #F7F7F7;
+	border-bottom: 2px #81c625 solid; 
+}
+.header #search-autocomplete .search-total strong{
+	color: #222;
+}
+.header #search-autocomplete .search-abstract{
+	border-bottom:1px #EEE solid; 
+	font-size:16px;
+  padding: 8px 8px 8px 52px;
+}
+.header #search-autocomplete .search-abstract img{
+	height:18px;
+	width:18px;
+	margin: 0px 0px 0px 4px;
+	vertical-align:middle;
+}
+#search-autocomplete .search-abstract .bold {
+	color: #0d519b;
+	font-weight:bold;
+}
+#search-autocomplete .search-abstract .italic {
+	font-style:italic;
+	color: #999;
+}
+#search-autocomplete .search-abstract .dark {
+	color: #666;
+}
+#search-autocomplete .search-icon{
+	width: 32px;
+	height: 32px;
+	margin: 8px;
+	float: left;
+}
+#search-autocomplete .search-progress img{
+	width: 32px;
+	height: 32px;
+	vertical-align:middle;
+	margin: 16px;
+}
+#search-autocomplete .search-progress span{
+	color: #AAA;
+	vertical-align:middle;
+}
